@@ -5,4 +5,4 @@ for i in range(10):
     numbers.append(num)
 
 unique_numbers = [num for num in numbers if numbers.count(num) == 1]
-print(unique_numbers)
+print("\nNumbers without duplicates:", unique_numbers)
