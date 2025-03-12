@@ -1,4 +1,4 @@
 # display program title
 # input 2 numbers
-# compare num1 and num2
+# compare the 2 numbers
 # display the smaller number
