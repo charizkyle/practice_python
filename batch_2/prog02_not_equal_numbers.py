@@ -1,4 +1,8 @@
-# display the program title
-# input 2 numbers
-# check if the numbers are not equal, print "Not Equal"
-# else, print "Equal"
+print("Program 2: Not Equal Numbers")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+if num1 != num2:
+    print("\nNot Equal")
+else:
+    print("\nEqual")
