@@ -7,4 +7,4 @@ if num2 == 0:
 else:
     quotient = num1 / num2
     print()
-    print(quotient)
+    print(f"{quotient:.2f}")
