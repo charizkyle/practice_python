@@ -1,5 +1,8 @@
-# display program title
-# initialize a variable total to 0 to store the sum
-# use for loop to iterate 10 times to get 10 numbers from the user
-# add the entered number to total
-# display the total sum
+print("Program 7: Sum of 10 Numbers")
+total = 0
+
+for i in range(10):
+    num = float(input(f"Enter number {i+1}: "))
+    total += num
+
+print("\nSum of all numbers:", total)
