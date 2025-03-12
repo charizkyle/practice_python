@@ -2,7 +2,13 @@ print("Program 8: Odd Numbers Count")
 odd_count = 0
 odd_numbers = []
 
-# use for loop to iterate 10 times to get 10 numbers from the user
-# check if the number is odd (not divisible by 2)
-# if odd, increment odd_count and add the number to odd_numbers list
-# display the count of odd numbers and the list of odd numbers
+for i in range(10):
+    num = float(input(f"Enter number {i+1}: "))
+    
+    if num % 2 != 0:
+        odd_count += 1
+        odd_numbers.append(num)
+        
+print()
+print(odd_count, "odd numbers")
+print(odd_numbers)
