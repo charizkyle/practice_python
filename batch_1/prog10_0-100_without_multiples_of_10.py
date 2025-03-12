@@ -1,4 +1,5 @@
-# display the program title
-# use for loop to display numbers from 0 to 100
-# check if the number is not a multiple of 10
-# print the numbers
+print("Program 10: 0-100 without ending in zero")
+
+for num in range(101): 
+    if num % 10 != 0:
+        print(num)

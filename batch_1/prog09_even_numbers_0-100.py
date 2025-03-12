@@ -1,4 +1,5 @@
-# display the program title
-# use for loop to display even numbers from 0 to 100
-# check if the number is even
-# print the even numbers
+print("Program 9: Even Numbers starting from 0-100")
+
+for num in range(101): 
+    if num % 2 == 0:
+        print(num)
