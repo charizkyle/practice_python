@@ -1,4 +1,3 @@
-# display the program title
 print("Program 5: Sort Numbers in Ascending Order")
 print("Enter a non-numeric value to exit the program.")
 
