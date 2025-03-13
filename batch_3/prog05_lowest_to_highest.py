@@ -1,8 +1,13 @@
 # display the program title
-# initialize an empty list to store the numbers
-# continuously ask the user to enter a number until an invalid input is entered
-#     prompt the user to enter a number
-#     if the input is not a number, exit the loop
-#     if the input is a number, add it to the list
+print("Program 5: Sort Numbers in Ascending Order")
+numbers = []
+
+while True:
+    try:
+        num = float(input("Enter a number: "))
+
+        numbers.append(num)
+    except ValueError:
+        break
 # sort the list in ascending order
 # display the sorted list
