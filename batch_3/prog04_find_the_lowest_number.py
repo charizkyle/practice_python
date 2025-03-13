@@ -4,6 +4,7 @@ lowest = None
 while True:
     try:
         num = float(input("Enter a number: "))
-
-# update the lowest number if the entered number is less than the current lowest number
-# stop the loop if an invalid input or non-numeric value is entered
+        if lowest is None or num < lowest:
+            lowest = num
+    except ValueError:
+        break

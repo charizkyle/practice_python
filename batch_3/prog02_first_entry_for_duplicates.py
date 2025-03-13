@@ -6,4 +6,4 @@ for i in range(10):
     if num not in numbers:
         numbers.append(num)
 
-print(numbers)
+print("\nNumbers:", numbers)
