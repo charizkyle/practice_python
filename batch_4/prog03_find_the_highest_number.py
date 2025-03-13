@@ -1,4 +1,3 @@
-# display program title
 print("Program 3: Find the Highest Number")
 highest = None
 
@@ -9,5 +8,8 @@ while True:
             highest = num
     except ValueError:
         break
-    
-# display the highest number if any number was entered
+
+if highest is not None:
+    print("\nHighest number:", highest)
+else:
+    print("\nNo valid number entered.")
