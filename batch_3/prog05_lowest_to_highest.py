@@ -10,4 +10,8 @@ while True:
     except ValueError:
         break
 # sort the list in ascending order
-# display the sorted list
+if numbers:
+    numbers.sort()
+    print("\nNumbers from lowest to highest:", numbers)
+else:
+    print("\nNo valid number entered.")
