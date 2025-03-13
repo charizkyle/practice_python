@@ -4,4 +4,4 @@
 # ask for a  number
 # check if the numbers is a duplicate
 # else if it is unique, add it to the list
-# if the input is invalid, stop the loop
+# if the input is invalid, break the loop
