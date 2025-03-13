@@ -8,11 +8,10 @@ while True:
         numbers.append(num)
     except ValueError:
         break
-# calculate the average of the numbers in the list
-# display the average
+
 if numbers:
     total = sum(numbers)
     average = total / len(numbers)
-    print("\nAverage:", average)
+    print(f"\nAverage:", {average:.2f})
 else:
     print("\nNo valid number entered.")
