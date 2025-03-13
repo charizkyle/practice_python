@@ -8,5 +8,9 @@ while True:
         numbers.append(num)
     except ValueError:
         break
-# if the list is not empty, sort the numbers in descending order
-# display the numbers from highest to lowest
+
+if numbers:
+    numbers.sort()
+    print("\nNumbers from highest to lowest:", numbers)
+else:
+    print("\nNo valid number entered.")
