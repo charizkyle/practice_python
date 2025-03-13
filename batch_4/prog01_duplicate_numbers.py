@@ -1,4 +1,5 @@
 print("Program 1: Duplicate Numbers in 10 Numbers")
+print("Enter a non-numeric value to exit the program.")
 numbers = []
 duplicates = []
 
