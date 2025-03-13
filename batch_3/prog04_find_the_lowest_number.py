@@ -1,6 +1,9 @@
-# display program title
-# initialize a variable to store the lowest number (set None as the initial value)
-# continuously ask the user for input until an invalid input is entered
-# ask the user for a number
+print("Program 4: Find the Lowest Number")
+lowest = None
+
+while True:
+    try:
+        num = float(input("Enter a number: "))
+
 # update the lowest number if the entered number is less than the current lowest number
 # stop the loop if an invalid input or non-numeric value is entered

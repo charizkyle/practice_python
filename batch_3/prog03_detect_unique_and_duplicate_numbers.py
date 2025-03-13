@@ -1,4 +1,5 @@
 print("Program 3: Detect Unique and Duplicate Numbers")
+print("Enter a non-numeric value to exit the program.")
 numbers = []
 
 while True:
