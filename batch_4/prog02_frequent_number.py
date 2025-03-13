@@ -7,7 +7,7 @@ while True:
         numbers.append(num)
     except ValueError:
         break
-# find the most frequent number in the list or a number with most duplicates
+
 if numbers:
     most_frequent = None
     most_frequent_count = 0
@@ -16,7 +16,7 @@ if numbers:
         if count > most_frequent_count:
             most_frequent = num
             most_frequent_count = count
-# display the most frequent number
+
     print("\nMost frequent number:", most_frequent)
     print("Number of duplicates:", most_frequent_count)
 else:
