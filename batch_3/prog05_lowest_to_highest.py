@@ -1,5 +1,7 @@
 # display the program title
 print("Program 5: Sort Numbers in Ascending Order")
+print("Enter a non-numeric value to exit the program.")
+
 numbers = []
 
 while True:
@@ -9,7 +11,7 @@ while True:
         numbers.append(num)
     except ValueError:
         break
-# sort the list in ascending order
+
 if numbers:
     numbers.sort()
     print("\nNumbers from lowest to highest:", numbers)
