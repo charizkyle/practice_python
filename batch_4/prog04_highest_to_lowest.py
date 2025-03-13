@@ -10,7 +10,7 @@ while True:
         break
 
 if numbers:
-    numbers.sort()
+    numbers.sort(reverse=True)
     print("\nNumbers from highest to lowest:", numbers)
 else:
     print("\nNo valid number entered.")
