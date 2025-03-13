@@ -1,6 +1,13 @@
 # display program title
-# initialize a variable to store the highest number (set to None)
-# continuously ask the user to enter a number until a non-numeric value is entered
-#   update the highest number if the entered number is greater than the current highest number
-#   stop the loop if a non-numeric value is entered
+print("Program 3: Find the Highest Number")
+highest = None
+
+while True:
+    try:
+        num = float(input("Enter a number or press Enter to stop: "))
+        if highest is None or num > highest:
+            highest = num
+    except ValueError:
+        break
+    
 # display the highest number if any number was entered
