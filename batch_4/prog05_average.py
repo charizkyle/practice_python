@@ -12,6 +12,6 @@ while True:
 if numbers:
     total = sum(numbers)
     average = total / len(numbers)
-    print(f"\nAverage:", {average:.2f})
+    print(f"\nAverage: {average:.2f}")
 else:
     print("\nNo valid number entered.")
