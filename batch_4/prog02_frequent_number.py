@@ -17,3 +17,7 @@ if numbers:
             most_frequent = num
             most_frequent_count = count
 # display the most frequent number
+    print("\nMost frequent number:", most_frequent)
+    print("Number of duplicates:", most_frequent_count)
+else:
+    print("\nNo valid number entered.")
