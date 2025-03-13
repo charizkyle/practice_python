@@ -10,3 +10,9 @@ while True:
         break
 # calculate the average of the numbers in the list
 # display the average
+if numbers:
+    total = sum(numbers)
+    average = total / len(numbers)
+    print("\nAverage:", average)
+else:
+    print("\nNo valid number entered.")
