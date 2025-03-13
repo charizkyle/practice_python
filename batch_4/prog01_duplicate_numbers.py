@@ -1,5 +1,4 @@
-# display the program title
-print("Program 1: Duplicate Numbers")
+print("Program 1: Duplicate Numbers in 10 Numbers")
 numbers = []
 duplicates = []
 
@@ -11,4 +10,7 @@ for num in numbers:
     if numbers.count(num) > 1 and num not in duplicates:
         duplicates.append(num)
 
-# display the result
+if duplicates:
+    print("\nDuplicate numbers:", duplicates)
+else:
+    print("\nNo duplicate numbers found")
