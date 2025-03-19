@@ -8,4 +8,4 @@ full_name = input("Enter your full name with incorrect casing: ")
 reversed = "".join(char.upper()if char.islower() else char.lower() for char in full_name)
 
 # print the full name with reversed casing
-print("\nFull name with reversed casing", reversed)
+print("\nFull name with reversed casing:", reversed)
