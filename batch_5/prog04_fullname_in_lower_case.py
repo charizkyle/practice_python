@@ -1,5 +1,5 @@
 # display the program's title
-print("Program 3: Full Name in Capital Letters")
+print("Program 4: Full Name in Lower Case Letters")
 
 # ask the user to input their full name
 full_name = input("Enter your full name: ")
