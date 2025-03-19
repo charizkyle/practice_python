@@ -1,4 +1,8 @@
 # display the program's title
-# program to ask the user to input their full name and print it in all capital letters
+print("Program 3: Full Name in Capital Letters")
+
 # ask the user to input their full name
+full_name = input("Enter your full name: ")
+
 # print the full name in all capital letters
+print(f"\nFull name in capital letters: {full_name.upper()}")
