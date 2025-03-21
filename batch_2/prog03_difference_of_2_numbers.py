@@ -4,4 +4,4 @@ num2 = float(input("Enter the second number: "))
 
 diff = num1 - num2
 print()
-print(diff)
+print("=", diff)

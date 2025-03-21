@@ -4,4 +4,4 @@ exponent = float(input("Enter the exponent: "))
 
 result = base ** exponent
 print()
-print(result)
+print("=", result)

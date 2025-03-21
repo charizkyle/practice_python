@@ -7,4 +7,4 @@ if num2 == 0:
 else:
     rem = num1 % num2
     print()
-    print(rem)
+    print("=", rem)

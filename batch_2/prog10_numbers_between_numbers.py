@@ -1,4 +1,4 @@
-print("Program 10: Numbers between numbers")
+print("Program 10: Numbers between 2 Numbers")
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 

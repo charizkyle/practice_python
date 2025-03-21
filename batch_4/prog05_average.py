@@ -1,9 +1,11 @@
-print("Calculate the Average")
+print("Program 5: Calculate the Average")
+print("Enter a non-numeric value to exit the program.")
+
 numbers = []
 
 while True:
     try:
-        num = float(input("Enter a number or press Enter to stop: "))
+        num = float(input("Enter a number: "))
 
         numbers.append(num)
     except ValueError:

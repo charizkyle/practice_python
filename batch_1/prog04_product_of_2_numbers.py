@@ -4,4 +4,4 @@ num2 = float(input("Enter the second number: "))
 
 prod = num1 * num2
 print()
-print(prod)
+print("=", prod)

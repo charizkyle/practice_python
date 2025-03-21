@@ -6,4 +6,4 @@ for i in range(10):
 
 result = numbers[0] - sum(numbers[1:])
 print()
-print(result)
+print("=", result)
