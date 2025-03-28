@@ -6,5 +6,11 @@ string = input("Enter a string: ")
 prefix = input("Enter the prefix to remove: ")
 
 # remove the prefix from the string without using removeprefix()
-#   if no prefix is found, print the original string
+if string.startswith(prefix):
+    string = string.replace(prefix, "", 1)
+else:
+    string = string # if no prefix is found, print the original string
+
 # print the string without the prefix
+print()
+print(string)
