@@ -5,4 +5,9 @@ print("Program 1: Remove Leading Spaces from String")
 string = input("Enter a string with leading spaces: ")
 
 # strip each leading spaces using replace()
+while string.startswith(" "):
+    string = string.replace(" ", "", 1)
+
 # print the string without leading spaces
+print()
+print(string)
