@@ -6,4 +6,8 @@ string = input("Enter a string: ")
 target_length = int(input("Enter the target length: "))
 
 # center the string with spaces on both sides
+result = f"{string:^{target_length}}"
+
 # print the result
+print()
+print(f"""'{result}'""")
