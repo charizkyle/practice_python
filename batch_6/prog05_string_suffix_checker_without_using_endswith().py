@@ -6,4 +6,11 @@ string = input("Enter a string: ")
 suffix = input("Enter the suffix to check: ")
 
 # check if the string ends with the given suffix
+if string[-len(suffix):] == suffix:
+    result = "The string ends with the given suffix."
+else:
+    result = "The string does not end with the given suffix."
+
 # print the result
+print()
+print(result)
