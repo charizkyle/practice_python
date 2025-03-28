@@ -6,4 +6,4 @@ string = input("Enter a string: ")
 
 # print the first letter of the string in capitalized form
 print()
-print(string.title())
+print(string[0].upper() + string[1:])
