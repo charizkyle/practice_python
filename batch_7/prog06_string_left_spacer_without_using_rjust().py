@@ -6,5 +6,11 @@ string = input("Enter a string: ")
 target_length = int(input("Enter the target length: "))
 
 # add spaces to the left of the string until it reaches the target length
-#   truncate the string if it is longer than the target length
+if len(string) < target_length:
+    string = " " * (target_length - len(string)) + string
+else:
+    string = string[:target_length] # truncate the string if it is longer than the target length
+
 # print the result
+print()
+print(f"""'{string}'""")
