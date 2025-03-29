@@ -11,4 +11,4 @@ while i >= 0 and string[i] == " ":
 
 # print result
 print()
-print({string[:i + 1]})
+print(f"'{string[:i + 1]}'")
