@@ -10,7 +10,7 @@ if string.startswith(prefix):
     string = string.replace(prefix, "", 1)
 else:
     string = string # if no prefix is found, print the original string
-
+    print("\nPrefix not found, original string remains unchanged.")
 # print the string without the prefix
 print()
-print(string)
+print(f"'{string}'")
