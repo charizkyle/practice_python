@@ -7,9 +7,9 @@ string = input("Enter a string: ")
 # convert the string to uppercase and compare it with the original
 uppercase_string = string.upper()
 if string == uppercase_string:
-    result = "The string is uppercase."
+    result = "The string is in uppercase."
 else:
-    result = "The string is not uppercase."
+    result = "The string is not in uppercase."
     
 # print the result
 print()
