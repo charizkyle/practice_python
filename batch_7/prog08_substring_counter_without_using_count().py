@@ -14,4 +14,4 @@ while index != -1:
 
 # display the result
 print()
-print(f"The substring '{substring}' occurs {count} times in the main string '{main_string}'.")
+print(f"The substring '{substring}' occurs {count} times in the main string.")
