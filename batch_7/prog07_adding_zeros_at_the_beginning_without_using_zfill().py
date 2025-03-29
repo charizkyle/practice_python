@@ -6,4 +6,8 @@ string = input("Enter a string: ")
 target_length = int(input("Enter the target length: "))
 
 # add leading zeros using string formatting
+result = f"{string:0>{target_length}}"
+
 # display the result
+print()
+print(result)
